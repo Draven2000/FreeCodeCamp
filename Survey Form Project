@@ -48,7 +48,7 @@
       </label>
 
 
-    <label for="bio">Tell us more about your favourite teas!:
+    <label for="bio">Tell us more about your favourite teas!
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="what other flavours, sugar and milk, does it help you relax?..."></textarea>
     </label>
 
