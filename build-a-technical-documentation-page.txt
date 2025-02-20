@@ -182,7 +182,6 @@ html {
   box-sizing: border-box;
 }
 
-
 #main-doc {
     position: relative;
     margin-left: 290px;
@@ -191,11 +190,6 @@ html {
     color: #0a0a23;
     
 }
-
-
-int, lib, data, head, keys, Unique
-int, lib, data, head, keys,  Unique
-
 
 h1, h2, h3 {
   text-align: center;
@@ -235,15 +229,11 @@ header {
 section {
   max-width: 40rem;
   margin: 0 auto;
-  border: 2px solid #d0d0d5;
 }
 
 p{
   margin-left: 15px;
 }
-
-
-
 
 code {
   display: block;
