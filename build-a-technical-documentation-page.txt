@@ -1,5 +1,3 @@
-** start of undefined **
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -178,10 +176,7 @@ If for example, your data set had a 'Category' column, which listed a named cate
   </main>
 </hmtl>
 
-** end of undefined **
-
-** start of undefined **
-
+<style>
 html {
   box-sizing: border-box;
 }
@@ -317,9 +312,8 @@ code.inline {
     padding: 0.5rem 1rem;
     min-width: 10%;
   }
-
 }
-
+</style>
 
 
 
