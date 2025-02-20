@@ -16,18 +16,20 @@ https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/m
 Tribute Page Project:
 ---
 link to github project<br>
-https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.txt
-
-link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.txt
-
-Technical Document Project:
----
-link to github project<br>
 https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-tribute-page.txt
 
 link to preview file as html page <br>
 https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-tribute-page.txt
+
+Technical Document Project:
+---
+link to github project<br>
+https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.txt
+
+
+link to preview file as html page <br>
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.txt
+
 
 Product Landing Page Project:
 ---
