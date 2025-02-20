@@ -1,5 +1,7 @@
 # FreeCodeCamp
 A collection of projects I am building on the website FreeCodeCamp, starting with HTML.
+My freeCodeCamp profile may be found here:
+https://www.freecodecamp.org/Raven2000 
 
 To preview a raw HTML file, prefix the url with<br>
 https://htmlpreview.github.io/? 
