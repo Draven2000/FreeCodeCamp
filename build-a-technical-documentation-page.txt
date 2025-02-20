@@ -176,6 +176,7 @@ If for example, your data set had a 'Category' column, which listed a named cate
   </main>
 </hmtl>
 
+
 <style>
 html {
   box-sizing: border-box;
@@ -314,8 +315,4 @@ code.inline {
   }
 }
 </style>
-
-
-
-** end of undefined **
 
