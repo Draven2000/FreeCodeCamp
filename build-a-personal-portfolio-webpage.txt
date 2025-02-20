@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">    
+  <head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link href="styles.css" rel="stylesheet" />   
+  </head>
+
+  <body>
+    <header>
+      <navbar id = "navbar">
+        <a class = "nav-link" href = "#welcome-section">Welcome!</a>
+        <a class = "nav-link" href = "#projects">Projects</a>
+        <a class = "nav-link" href="#about-me">About Me</a>
+        <a class = "nav-link" href="#Contact">Contact Details</a>
+      </navbar>
+    </header>
+
+    <main id = "main-doc">
+      <section id = "welcome-section">
+        <h1>I'm Dominic</h1>
+        <h3 class = "role">An aspiring data analyst and programmer</h3>
+      </section>
+
+      <section id = "projects">
+        <h2 class = "section-header">HTML Projects:</h2>
+        <div class = "image-wrapper"> <!-- Container wrapping the tiles -->
+          <!-- first tile -->
+          <div class = "project-tile"> 
+            <a href = "https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Survey%20Form%20Project" >
+              <img src = "https://lh3.googleusercontent.com/pw/AP1GczNSrKyIGvGFKxtitFajbSB3lJJWi24F0w9MBAvHh8bykvq0QDOwmqyzvlmRJgZVw1oS5bZ0sf9i1dLdMLorQAIWSOG_NqCuWQ3lwrELvpWNMLQ34c0=w2400" class = "project-image"
+              alt = "Screenshot of the Survey Form HTML page"/>
+              <p class="project-text">Survey Form</p>
+            </a>
+          </div>
+        
+          <!-- Second tile -->
+          <div class = "project-tile">
+            <a href = "https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-tribute-page.txt">
+              <img src = "https://lh3.googleusercontent.com/pw/AP1GczPW0KJD09PtwfxbnjM64v9uzYtFDr6CfPSzyoG9mGnRgnJagTStoFgBik3KhJ_eXVeT9s4MgiYy9lr5vis59gJNNx7qi-U6qPrl33jFPd4GC7vzB8c=w2400" class = "project-image"
+              alt = "Screenshot of the Tribute Project HTML page"/>
+              <p class="project-text">Tribute Page (for a fictional character)</p>
+            </a>
+          </div>
+        
+          <!-- Third tile -->
+          <div class = "project-tile">
+            <a href = "https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.txt">
+              <img src = "https://lh3.googleusercontent.com/pw/AP1GczOPKX_rLfDlhDMdAAXW5pSuY-m5rnbCoCuD2wgHPigP3604i57r76fjFY-PAFKJ2zEt8wbI2tDMX36FROeCk66mIH-rWm6BzyTAnFMvbvbxxXZcOhg=w2400" class = "project-image"
+              alt = "Screenshot of the Technical Documentation HTML page"/>
+              <p class="project-text">Technical Documentation Page</p>
+            </a>
+          </div>
+        
+          <!-- Fourth tile -->
+          <div class = "project-tile">
+            <a href = "https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-product-landing-page.txt">
+              <img src = "https://lh3.googleusercontent.com/pw/AP1GczOTCSDa5RSuNT7vVkBXbiUj-syx9LcJ3f3r9yjGfQKafrOu0CRLIkYZNsPTw-Gu4YNlhIm7faDIIVBaO_CDSGWgCvoaVr86A8gYffFqzgdqWHmEIy4=w2400" class = "project-image"
+              alt = "Screenshot of the Product Landing HTML page"/>
+              <p class="project-text">Product Landing Page (for a fictional product)</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <section id = "about-me">
+        <h2 class = "section-header">About Me</h2>
+        <p>I am a highly focused and hardworking graduate with a passion for STEM and a practical and theoretical academic background in Physics.<br> Having developed a proficiency in Python during my University studies, I am enhancing these skills by completing the CODE Cumbria Bootcamp.
+        <br> I found coding to be a component of my physics degree that I enjoyed the most due to its methodical and logical nature. I am keen to apply my logical thinking and problem solving skills in a data analysis role.</p>
+
+        <p>In my free time, I complete online coding courses at FreeCodeCamp, to further my knowldege of different programming languages.<br>
+        Listed above are examples of projects I have worked on while learning HTML and CSS in order to practice building responsive web design. Starting from a position of never having used HTML and building my way up to desiging a product landing page for a fictional product.</p>        
+      </section>
+
+      <section id = "Contact">
+        <h2 class = "section-header">Contact Details</h2>
+        <p>I aim to update my public portfollio with more projects as I take more online courses. A compliation of my coding projects will be stored on Github.<br><br>
+        Additionally, you may find my profile details linked for the sites below.</p>
+        <div class = "logo-wrap">
+          <a href = "https://www.freecodecamp.org/Raven2000" id = "profile-link"
+          target = "_blank">
+          <img class="logo codecamp" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp Logo" />
+          </a>
+          
+          <a href = "https://github.com/Draven2000" id = "profile-link"
+          target = "_blank">
+          <img class="logo Github" src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt="Github Logo" />
+          </a>
+
+          <a href = "linkedin.com/in/dominic-raven-3ba294330" id = "profile-link"
+        target = "_blank">
+          <img class="logo Github" src="data:image/png;base64,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" alt="LinkedIn Logo" />
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+<style>
+
+:root {
+  /* Set up colours at top of page to easily change*/ 
+  --primary-color: lavender;
+  --secondary-color: rgba(118, 118, 240, 0.74);
+  --header-color: rgb(167, 61, 167);
+  --header-text-color: rgb(255, 242, 0);
+  --header-border: #e89414;
+  --button-color: blue;
+  --tile-color: navy;
+  --tile-border: gold;
+  --tile-text-color: gold;
+
+  /* While working on formating, set borders to grey. Once finished, set borders to transparent to remove from sight */ 
+  --placeholder-color: transparent;
+
+  --header-height: 14vh;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 18px
+}
+
+/* Header
+*/
+
+body {
+  background: linear-gradient(
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  color: black;
+  font-family: 'Georgia', sans-serif;
+  font-size: 1rem;
+}
+
+p {
+  margin: 1rem 1rem;
+}
+
+header {
+  background-color: var(--header-color);
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: var(--header-height);
+  border-bottom: 5px solid var(--header-border);
+}
+
+#navbar { 
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 60%;
+  top: 20%;
+  left: -10%;
+  float: right;
+  justify-content: space-evenly;
+  margin-top: 0;
+}
+
+#navbar a {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin: 0 2%; 
+  border-radius: 30px;
+  width: 40%;
+  height: 80%;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: bold;
+  background-color: var(--button-color);
+  color: var(--header-text-color)
+}
+
+#navbar a:hover {
+  color: white
+  ;
+}
+
+/* Main doc */
+
+#main-doc {
+    position: relative;
+    /* margin top same as header height*/ 
+    margin-top: var(--header-height); 
+}
+
+section {
+  max-width: 40rem;
+  margin: 0 auto;
+  border: 2px solid var(--placeholder-color);
+  position: relative;
+}
+
+section#projects{
+  background-color: var(--secondary-color);
+  max-width: 70rem;
+  border: solid var(--header-border) 20px;
+  margin-bottom: 4rem;
+  padding: 0rem;
+  border-radius: 70px
+}
+
+#projects h2{
+  text-decoration: underline;
+  color: rgb(12, 12, 88)
+}
+
+#welcome-section{
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  width: auto;
+  margin-bottom: 10%;
+}
+
+
+h2 {
+  font-size:  1.8rem;
+  text-align: center
+}
+
+h3.role{
+  font-size: 1.9rem;
+  color: navy;
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 350px;
+  top: 0%;
+  left: 10%;
+  height: 20%;
+}
+
+/* projects */
+
+.image-wrapper {
+  display: grid;
+  height: 80%;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, min-content);
+  gap: 2rem;
+  place-items: center;
+  background-color: var(--header-border);
+}
+
+.project-tile{
+  width: 100%;
+  background-color: var(--tile-color);
+  padding-top: 5vh ;
+  border-radius: 30px;
+  margin-top: 20%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project-tile:hover {
+  transform: scale(1.02);
+  border: 4px solid var(--tile-border);
+  cursor: pointer;
+}
+
+.project-image{
+  width: 90%;
+  height: 65%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project-text{
+  font-size: 1.4rem;
+  color: var(--tile-text-color);
+  text-align: center;
+}
+
+.project-tile p:hover, a:hover{
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+header a:hover{
+  border: 4px solid var(--tile-border);
+}
+
+/* Contact Details*/
+
+.logo-wrap{
+  border: solid 10px var(--header-border);
+  background-color: var(--header-color);
+  border-radius: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo.codecamp{
+  margin-right: 10%;
+}
+
+.logo.Github{
+    width: auto;
+    height: 40px;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+}
+
+
+/* smaller screens */
+
+@media only screen and (max-width: 600px) {
+
+  section#projects{
+    background-color: var(--secondary-color);
+    border: solid var(--header-border) 30px;
+    border-radius: 70px
+  }
+
+  /* Change to single column layout to save width space */
+  .image-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, min-content);
+    gap: 1.5rem;
+  }
+  /* make text smaller so it takes up less room on a smaller screen */
+  .project-text{
+    font-size: 1.2rem;
+  }
+
+}
+
+</style>
+
