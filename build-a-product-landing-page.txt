@@ -209,7 +209,6 @@ h1 {
 }
 
 
-
 /* Main doc */
 #main-doc {
     position: relative;
@@ -249,8 +248,6 @@ form {
   padding-bottom: 4em;
 }
 
-
-
 h2, h3 {
   display: block;
   text-align: center;
@@ -262,15 +259,12 @@ h2, h3 {
 section {
   max-width: 40rem;
   margin: 0 auto;
-  border: 2px solid #d0d0d5;
 }
 
 
 .price{
   font-style: italic
 }
-
-
 
 input, select, textarea {
   background-color: gold;
@@ -295,13 +289,10 @@ input, select, textarea {
   border-radius: 20px
 }
 
-
 footer{
   font-size: 0.6rem;
   text-align: right
 }
-
-
 
 
 /* smaller screens */
@@ -342,11 +333,6 @@ footer{
     margin-right: 0rem;
     margin-top: 0.3rem;
   }
-
-  form{
-
-  }
-
 }
 
 
