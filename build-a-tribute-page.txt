@@ -1,5 +1,3 @@
-** start of undefined **
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -36,9 +34,7 @@
     
   </main>
 
-** end of undefined **
-
-** start of undefined **
+<style>
 
 img {display: block;
     max-width: 100%;
@@ -92,5 +88,5 @@ div {
   padding-top: 1em
 }
 
-** end of undefined **
+</style>
 
