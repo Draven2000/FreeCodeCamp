@@ -1,0 +1,96 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <h1 id = "title">Captain Olimar</h1>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <main id = "main">
+    <figure id = "img-div">
+
+      <img id = "image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa_oxb6Dv2BdCUryG2nQIFgdiQZuNjSY1Ghg&s" alt="Picture of Captain Olimar, a Hocotation, caught mid-conversation between himself, his coworker Louie and his boss"></img>
+      <figcaption id = "img-caption">Olimar, centre in the image, being ordered by his boss(right) to go on a dangerous space mission with his coworker Louie(left).</figcaption>
+
+    </figure>
+    <div></div>
+    <h3>Hocotate</h3>
+    <p id = "tribute-info">The universe is home to billions of planets bearing life, and Hocotate is no exception. A modestly sized orange rocky planet, Hocotate is home to a species of small humanoids known simply as Hocotates in the intergalactic community.</p>
+<p>Hocotates are well known for their love of vegtables, and our hero Olimar is no exception, citing his favourite food to be the brand of "pik-pik" carrots and onions.</p>
+
+    <h3>A brave man</h3>
+    <p id = "tribute-info">While on holiday in the far reaches of space, Captain Olimar was awoken by a horrific accident. His beloved ship the S.S Dolphin had crashed into an unexpected meteor and hurtled towards the surface of an uncharted hostile planet, later named PNF-404. PNF-404 is home to many large, wild and dangerous creatures. As if that was not bad enough, its atmosphere contains high levels of oxygen, toxic to Hocotations. With only 30 days of life support, and a broken ship Olimar succesfully braved against the odds and explored this uncharted corner of space, rebuilding his damaged spaceship and returning home</p>
+    <h3>A family man</h3>
+    <p id = "tribute-info">Olimar is a middle-aged working man, a father of two children and a husband to his loving wife. It is clear he shows a great deal of affection towards his family, on his first trip to a hostile planet, his ship logs were filled with desire to see them again. He was even considerate to bring back an alien artifact known as a "bottle cap" for his son. Although he couldn't have known its true value at the time, this same "bottle cap" was later evaluated to be worth 100 Pokkos, which is more then a years salary working at Hocotate Freight! After encountering a hostile alien species on the planet he discovered, Olimar thought back on his beloved dog Bulbie, and named this new species "bulborbs" in honour of his dog.</p>
+
+  <h3>A working man</h3>
+<p id = "tribute-info">Cited as the companys "only employee of any merit", he is an extrodinary worker, going above and beyond to save his company from the brisk of financial ruin. Braving the wilds of unexplored planet PNF-404, Captain Olimar is tasked with exploring hostile envrioments filled with monsterous alien lifeforms in the pursuit of high value alien artifacts to bring home to sell. One may make the argument that perhaps Olimar is being financilly abused by his boss, paying off a debt that was not his own fault, Olimar may even agree with such statements, although never directly if he wants to keep his job</p>
+
+  <h3>An intellectual man</h3>
+  Despite his role as a delivary driver, Olimar posses keen intellect and a burning curiosity, traits that served him well when castaway on an uncharted planet. Taking his task of documenting his findings very seriously, Olimar made many exciting discoveries upon the planet. He encountered friendly aliens, now named pikmin due to their carrot shaped bodies reminding Olimar of his favourite brand. Olimar made highly detailed notes of all hostile creatures encountered on the planet, and with the help of the pikmin was able to escape. Even on return trips to the planet, Olimar has been keeping extensive research notes and updating with new findings. 
+<div></div>
+
+    <p>Read more about our beloved space captain at the pikmin fanbase <a id = "tribute-link" target = "_blank" href = "https://www.pikminwiki.com/Captain_Olimar">wikipedia page</a></p>
+    
+  </main>
+
+** end of undefined **
+
+** start of undefined **
+
+img {display: block;
+    max-width: 100%;
+    height: auto;
+    flex: wrap
+    }
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: tomato;
+  color: black;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+
+main {
+  flex: wrap;
+  height: 115em;
+  width: 70vw;
+  max-width: 500px;
+  min-width: 350px;
+  margin: 0 auto;
+  padding: 1.5em;
+  padding-bottom: 4em;
+  background-color: cyan;
+  color: black;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+p, h3 {
+  margin: 1em auto;
+  text-align: left;
+}
+
+h1 {
+  margin: 1em auto;
+  text-align: center;
+}
+
+figcaption {
+  margin: 0.5em auto;
+  text-align: center;
+  font-size: 14px
+}
+
+div {
+  padding-top: 1em
+}
+
+** end of undefined **
+

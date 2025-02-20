@@ -1,0 +1,359 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">    
+  <head>
+    <meta charset="UTF-8">
+    <title>Potion Product Landing Page</title>
+    <link href="styles.css" rel="stylesheet" />   
+  </head>
+
+  <body>
+    <header id = "header">
+      <img id = "header-img" src = "https://archives.bulbagarden.net/media/upload/thumb/3/32/Pok%C3%A9_Mart_Quest.png/200px-Pok%C3%A9_Mart_Quest.png" 
+    />
+
+    <h1 class = "page-heading">Poké Mart Potions!</h1>
+      <nav id = "nav-bar">
+        <a class = "nav-link" href = "#Features">Features!</a>
+        <a class = "nav-link" href = "#Stock">Stock</a>
+        <a class = "nav-link" href = "#Video-section">Jingle</a>
+        <a class = "nav-link" href = "#Contact">Contact</a>
+      </nav>
+
+    </header>
+
+
+    <main id = "main-doc">
+    <section id = "Features">
+      <h2 class = "section-heading">Features</h2>
+      <ul>
+        <li><span class = bold>Easy to use!</span><br>
+        Simply aim the spray nozzle at your pokémons wound and squeeze the trigger. 
+
+        </li>
+        <li><span class = bold>Instant relief!</span><br>
+        Keeping your pokémon healthy is our top priority, and with our fast acting formula your pokemon will feel better in no time.
+        </li>
+        <li><span class = bold>Pokémon approved!</span><br>
+          Unlike traditional herbal medicines, our potions leave no bitter aftertaste, your pokémon will thank you.
+        </li>
+        <li><span class = bold>Affordable prices!</span><br>
+          Whether you're just starting out on your journey or you're already a pokemon veteran, PokeMart has a range of potions available to suit your needs.
+        </li>
+      </ul>
+    </section>
+
+    <section id = "Stock">
+      <h2 class = "section-heading">Our Stock</h2>
+      <aside class = "image-wrapper">
+          <img class = "potion-img" src = "https://www.serebii.net/itemdex/sprites/sv/potion.png" 
+    />
+    <p><span class = "bold">Regular Potions</span><br><br>
+    Heals 20HP.
+    </p>
+    <p class = "price">¥300</p>
+
+        <img class = "potion-img" src = "https://www.serebii.net/itemdex/sprites/sv/superpotion.png" 
+    />
+    <p><span class = "bold">Super Potions</span><br><br>
+    Heals 50HP.
+    </p>
+    <p class = "price">¥700</p>
+
+    <img class = "potion-img" src = "https://www.serebii.net/itemdex/sprites/sv/hyperpotion.png" 
+    />
+    <p><span class = "bold">Hyper Potions</span><br><br>
+    Heals 200HP.
+    </p>
+    <p class = "price">¥1,500</p>
+
+    <img class = "potion-img" src = "https://www.serebii.net/itemdex/sprites/sv/maxpotion.png" 
+    />
+    <p><span class = "bold">Max Potions</span><br><br>
+    Heals 100% of HP.
+    </p>
+    <p class = "price">¥2,500</p>
+
+    <img class = "potion-img" src = "https://www.serebii.net/itemdex/sprites/sv/fullrestore.png" 
+    />
+    <p><span class = "bold">Full Restores</span><br>
+    Heals 100% of HP and heals all status conditions.
+    </p>
+    <p class = "price">¥3,000</p>
+    </aside>
+    </section>
+
+    <section id = "Video-section">
+      <h2>Listen to our theme song while you shop</h2>
+    <!-- i frame element 
+    from clicking on "share" from the youtube video and the following html element is suggested by youtube
+    
+    Extra disclaimer that the video is not mine-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NeYs_R4BnZ4?si=XNbIYyD6U1ZoSEDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+    id = "video"></iframe>
+    </section>
+    
+    <section id = "Contact">
+    <h2>Need to contact us?</h2>
+
+    <form id = "form" action="https://www.freecodecamp.com/email-submit">
+
+        <label for="review">whether you've had a problem with your order or want to let others know how you enjoyed it, we welcome all feedback. 
+          <textarea id="review" name="review" rows="3" cols="42" placeholder="Enjoyed your product? leave a review here..."></textarea>
+    </label>
+
+      <label for="email" id = "email-label">Enter Your Email: 
+        <input id="email" name="email" type="email" 
+        placeholder="Enter email here..." required />
+      </label>
+      <input type = "submit" value = "Submit" id = "submit" />
+    </form>
+    <section>
+
+    
+
+
+    </main>
+    <footer>
+      <p class = "foot"><span class = "bold">Disclaimer:</span><br>
+      This is simply a project to experiment building a project landing page with html for FreeCodeCamp.org.<br> Neither the viedo linked nor pokemon are owned by myself</p>
+    </footer>
+
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-height: 22vh;
+}
+/* Colour of logo
+rgba(69,191,255,255) */
+
+/* Header */
+
+body {
+  background-color: rgba(69,231,255,255);
+  color: black;
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+
+}
+
+p {
+  margin: 1rem 1rem;
+}
+
+header {
+  background-color: rgba(69,191,255,255);
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: var(--header-height);
+}
+
+#header-img{
+  height: 80%;
+  position: absolute;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 2%;
+  display: flex;
+  float: right;
+  height: 30%;
+  width: 75%;
+  max-width: 85%;
+  min-width: 70%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 2.3rem
+}
+
+#nav-bar { 
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 30%;
+  left: 10px;
+  float: right;
+  justify-content: space-evenly;
+  margin-top: 0;
+}
+
+#nav-bar a {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin: 0 1%; 
+  border-radius: 30px;
+  width: 12rem;
+  height: 60%;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: bold;
+  color: rgba(60, 10, 10, 1);
+  background-color: rgba(20, 10, 230, 0.4);
+}
+
+#nav-bar a:hover {
+  color: orangered;
+}
+
+
+
+/* Main doc */
+#main-doc {
+    position: relative;
+    /* margin top same as header height*/ 
+    margin-top: var(--header-height); 
+}
+
+li{
+  list-style: none;
+  margin-bottom: 0.8rem
+}
+
+.image-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3, min-content);
+  gap: 2rem;
+  place-items: center;
+  background: linear-gradient(
+gold, yellow 20%,
+gold 45%, gold 55%,
+yellow 80%, gold);
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2rem
+}
+
+
+form {
+  width: 70vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 4em;
+}
+
+
+
+h2, h3 {
+  display: block;
+  text-align: center;
+  max-width: 37.25rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+section {
+  max-width: 40rem;
+  margin: 0 auto;
+  border: 2px solid #d0d0d5;
+}
+
+
+.price{
+  font-style: italic
+}
+
+
+
+input, select, textarea {
+  background-color: gold;
+  border: 1px solid orangered;
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  margin-top: 0.8rem;
+  min-height: 2rem;
+}
+
+#submit {
+  display: block;
+  width: 70%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: gold;
+  border-color: orangered;
+  color : white;
+  min-width: 300px;
+  border-radius: 20px
+}
+
+
+footer{
+  font-size: 0.6rem;
+  text-align: right
+}
+
+
+
+
+/* smaller screens */
+
+@media only screen and (max-width: 540px) {
+  :root {
+  --header-height: 36vh;
+  }
+
+  #header-img{
+  height: 50%;
+  position: absolute;
+  }
+  h1{
+    height: 35%;
+    margin-bottom: 1.5rem;
+    left: -5%;
+  }
+
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #nav-bar{
+    width: 90%;
+    height: 30%;
+    left: 10px;
+    float: left;
+    margin: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem;
+    place-items: center;
+  }
+    
+  #nav-bar a{
+    height: 30%;
+    margin-right: 0rem;
+    margin-top: 0.3rem;
+  }
+
+  form{
+
+  }
+
+}
+
+
+** end of undefined **
+

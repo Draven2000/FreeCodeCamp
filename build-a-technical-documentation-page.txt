@@ -1,0 +1,327 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <nav id = "navbar">
+    <header>Pandas and Python</header>
+    <a class = "nav-link" href = "#Introduction">Introduction</a>
+    <a class = "nav-link" href = "#Importing_Libraries">Importing Libraries</a>
+    <a class = "nav-link" href = "#Importing_Data">Importing Data</a>
+    <a class = "nav-link" href = "#Heads_or_Tails">Heads or Tails</a>
+    <a class = "nav-link" href = "#Keys">Keys</a>
+    <a class = "nav-link" href = "#Unique_and_Value_Counts">Unique and Value Counts</a>
+
+  </nav>    
+
+  <main id = "main-doc">
+    <h1 id = "title">Pandas and Python</h1>
+    <h2>Exploring Data Within A Dataframe</h2>
+    <!--Section should have a class of "main-section"
+    and an ID corresponding to the text of each header  -->
+    <!--at least 10 p elements within main-->
+    <section class = "main-section" id = "Introduction">
+
+      <header>Introduction</header>
+      <p>Python is an easy to learn programming language that can be used for many tasks, including data analysis and machine learning.<br>
+      It's  compatible with many platforms and has a simple English syntax that makes it easy to read.</p> 
+      <p> In the following documentation we will be exploring the Pandas library and how this may be used to explore large sets of data.</p>
+      <p>Other Python libraries that may be useful to have prior knowledge of involve:</p>
+      <li>NumPy</li>
+      <li>Matplotlib</li>
+      <li>Plotly</li>
+      <li>Seaborn</li>
+      <li>Scikit-learn</li>
+      <p>With NumPy being useful for numerical calculations within python.<br> Matplotlib is used for plotting graphs and presenting our data, with Seaborn and Plotly being an alternative choices for a plotting library.<br> Scikit is used in machine learning to find patterns within large data sets, however we will not be exploring machine learning in this document.</p>
+    </section>
+
+    <section class = "main-section" id = "Importing_Libraries">
+      <header>Importing Libraries</header>
+
+      <p>At the very start of our code, we should always make a point to import our libraries before anything else. If this is your first time using a libary on your device, you may need to install the package first before python will be able to run it.</p>
+      <p>First of all, open a terminal window in your Python program and type the following command</p>
+      <code>!pip install pandas</code>
+      <p>Once the libary is installed the first time you shouldn't need to run it again. <br> After installing the libary, the next step is to import it into our code itself.<br> At the start of your file type the following</p>
+      <code>
+        import pandas as pd<br>
+        import matplotlib.pyplot as plt<br>
+        import numpy as np
+      </code>
+      <li><span class = "bold">Import</span><br>
+      <span class = "descript">The import function requires the name of the library being installed, such as pandas, and the alias we will call back to the library by.<br> 
+    We could type <code class = "inline">.pandas</code> every time we wanted to called a function from the pandas library, but <code class = "inline">.pd</code> is much shorter and lowers the risk of misspelling pandas (forgetting the s). The choice of alias to call the functions by is arbitary, however the use of np, pd and plt are standard practice.</span>
+      </li>
+    </section>
+
+    <section class = "main-section" id = "Importing_Data">
+      <header>Importing Data</header>
+      <p>Next it is time to import the database we will be analysing. This data could be sourced directly from your computer or from online data sites such as Kaggle. If the dataset you're analysing is already downloaded to your files you may skip this step</p>
+      <p>To download a datset from Kaggle, you may use the following code</p>
+
+    <code>
+    # Download latest version<br>
+
+    import kagglehub<br>
+    path = kagglehub.<br>
+    dataset_download("vittoriogiatti/bigmacprice")<br>
+
+    print("Path to dataset files:", path)
+      </code>
+      <li><span class = "bold">Import kagglehub</span><br>
+      <span class = "descript">
+        Our first step is to import the kagglehub package. If you do not already have kagglehub installed, use the pip method shown in importing libraries.
+      </span>
+      </li>
+      <li><span class = "bold">Download dataset</span><br>
+      <span class = "descript">Using the <code class = "inline">dataset_download()</code> function. <br> 
+    The input may be found from the html of the kaggle page. For the example data base sourced from<br> 
+      <a class = "web-link" href = "https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice">https://www.kaggle.com/datasets/vittoriogiatti/bigmacprice</a>.<br>
+      The relavent input is all of the link after "datasets/".<br>
+      </span>
+      </li>
+      <li><span class = "bold">print(path)</span><br>
+      <span class = "descript">
+      The function will download the database from Kaggle and store it in a file on the users computer. Printing the path will tell us what folder the datset was saved to so we can ensure we are working in the same directory as the data.
+      </span></li>
+
+  <p>Finally it is time to import the dataset from our files</p>
+
+      <code>df = pd.read_csv('Datasets/bigmacprice.csv', sep=',')</code>
+      <p>Here we use the pandas <code class = "inline">.read</code> function to import the csv file of the data from the directory specified, and store it in the variable <code class = "inline">df</code>
+      </p>
+    </section>
+
+    <section class = "main-section" id = "Heads_or_Tails">
+      <header>Heads or Tails</header>
+
+      <p>Now that we have our dataframe loaded in, we can look through the data using python and pandas.</p>
+      <p>First, we can view our entire table at once simply by typing,</p>
+      <code>df</code>
+    <p>in the command window. The output will show us the entire data table.</p>
+
+    <p>We may also choose to use the print function</p>
+    <code>print(df)</code>
+    <p>However, using the print function on the data frame removes the neat built in formatting on the output. The perks of using print is that the output may be read as you run the programme rather then seperatly typing df into the console, as python only displays the last variable in the cell when using the former method.</p>
+
+    <p>Viewing the entire table all at once may be overwhelming if there are many rows in the data set. The functions <code class = "inline">.head</code> and <code class = "inline">.tail</code> will be useful tools for only showing a select amount of data</p>
+    <code>df.head()<br>
+    df.tail()</code>
+    <p>By default, using displays the top 5 rows of the table and using tail displays the last 5 rows of the table. We can show more or less rows by adding a value within the function.</p>
+      <code>print(df.head(7))<br>
+    print(df.tail(3))</code>
+    <p>Would display the first seven rows of the table and the last 3 rows.</p>
+    </section>
+    
+    <section class = "main-section" id = "Keys">
+      <header>Keys</header>
+
+      <p>In Python, a dictionary variable is a variable that stores key-value pairs. Similar to a dictionary, dataframes are large variables that stores each column as a key-value pair, where the key is the column header and the value linked to the key is all the values within the column.<br>
+      We can check the keys/column headings of the dataframe using a simple .keys function </p>
+      <code>print(df.keys())</code>
+      <p>The output will be a list of the keys/column headers of the data set. This is a quick way to check or display information about the columns in the dataframe.<br>
+      Using keys, we can filter a dataframe to only show a limited number of columns. This is an essential method of calling upon specific columns for data analysis</p>
+      <code>df[['key1']]<br>
+      df[['key1', 'key2']]</code>
+      <p>Inputting one key will call a single column from the dataset corresponding to that key. <br>
+      Inputting several keys will call several columns from the data set. This may be useful for comparing two columns side by side.</p>
+      <p>Finally, it is useful to understand what types of data we are working with for each column in the dataframe. Using the command
+        <code>print(df.dtypes)</code>
+        <p>The output is a 2 columned table. The first column is the keys of the dataframe and the second column is the corresponding data type that makes up the column for the key. This can be useful for ensuring that the data being analysed is in the form expected, i.e numerical data is in float or integer format and not string.</p>
+      <h3>An example</h3>
+      <p>Using the example database of burger king prices over time for different countries.</p>
+      <code>print(df.keys())<br>
+      print(df.dtypes)<br>
+      df[['date','name', 'dollar_price']]</code>
+      <li>keys</li>
+      <p>The first output would be a list of the column headings, in this case.</p>
+      <code>['date', 'currency_code', 'name', 'local_price', 'dollar_ex', 'dollar_price']</code>
+      <li>Types</li>
+      <p>The output will be a table matching the datatype of the column to the key of the column.</p>
+      <code>date              object<br>
+currency_code     object<br>
+name              object<br>
+local_price      float64<br>
+dollar_ex          int64<br>
+dollar_price     float64</code>
+      <li>Calling keys</li>
+      <p>The output would be the dataframe filtered to only show the 'date', 'name' and 'dollar_price' columns.</p>
+    </section>
+
+    <section class = "main-section" id = "Unique_and_Value_Counts">
+
+      <header>Unique and Value Counts</header>
+
+      <p>We can explore columns further using some helpful functions.<br>
+      The unique function pulls all the unique values within the column</p>
+      <code>df['key1'].unique()</code> 
+      <p>will show all the unique values within the key1 column.<br>
+If for example, your data set had a 'Category' column, which listed a named category for each of the rows in your data, then the above function would output all the different category values in the table without having to manually check</p>
+      <p>A simialr value counts function is used to count the number of rows of data that correlate to a unique value within the data set</p>
+      <code>df['key1'].value_counts()</code>
+
+      <h3>An example</h3>
+      <p>Using the burgerking data set again</p>
+      <code>df['date'].unique()<br>
+      df['date'].value_counts()
+      </code>
+      <li><code class = "inline">.unique()</code></li>
+      <p>The first output will give us all the unique values of date contained in the table. This information tells us what dates the information was sourced on</p>
+      <li><code class = "inline">.value_counts()</code></li>
+      <p>The second output will give us the number of rows that correlate to each individual date. This information directly tells us which dates had the most information collected on.<br>
+      We could continue collecting unique values and value counts for other columns within the data set such as 'name' (country name). </p>
+    </section>
+  </main>
+</hmtl>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  box-sizing: border-box;
+}
+
+
+#main-doc {
+    position: relative;
+    margin-left: 290px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #0a0a23;
+    
+}
+
+
+int, lib, data, head, keys, Unique
+int, lib, data, head, keys,  Unique
+
+
+h1, h2, h3 {
+  text-align: center;
+  max-width: 37.25rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: block;
+}
+
+
+h3 {
+  padding-top: 0.8rem;
+  padding-bottom: 0.1rem;
+}
+
+
+header {
+    display: block;
+    margin: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+    font-family: arial;
+  }
+
+.bold{
+  font-weight: bold;
+}
+
+.descript{
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  display: block;
+}
+
+section {
+  max-width: 40rem;
+  margin: 0 auto;
+  border: 2px solid #d0d0d5;
+}
+
+p{
+  margin-left: 15px;
+}
+
+
+
+
+code {
+  display: block;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 15px;
+  text-align: left;
+  line-height: 2rem;
+  background-color: rgba(120, 10, 10, 0.3);
+}
+
+code.inline {
+  display: inline;
+  border-radius: 2px;
+  padding: 3px;
+  margin: auto;
+  text-align: left;
+  line-height: 0;
+  background-color: rgba(120, 10, 10, 0.1);
+}
+
+#navbar { 
+  position: fixed;
+  min-width: 13px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 17.5rem;
+  height: 100%;
+  background-color: rgba(20, 10, 230, 0.2);
+}
+
+#navbar a {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin:1rem; 
+  border-radius: 10px;
+  width: 12rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Times New Roman, serif;
+  font-weight: bold;
+  color: rgba(60, 10, 10, 1);
+  background-color: rgba(20, 10, 230, 0.4);
+}
+
+#navbar a:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #main-doc {
+    margin-left: 0px;
+    }
+
+    #navbar{
+
+    text-align: center;
+    height: 100%;
+    position: static;
+    width: 95%;
+    min-width: 50%;
+
+    }
+
+  #navbar a {
+    padding: 0.5rem 1rem;
+    min-width: 10%;
+  }
+
+}
+
+
+
+
+** end of undefined **
+
