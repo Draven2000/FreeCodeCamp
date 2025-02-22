@@ -21,32 +21,30 @@ To preview a raw HTML file, prefix the url with<br>
 https://htmlpreview.github.io/? 
 
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_Design/Survey%20Form%20Project.html
-
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_DesignSurvey%20Form%20Project.html
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_Design/build-a-survey-form.css
 
 
 Tribute Page Project:
 ---
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-tribute-page.html
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_Design/build-a-tribute-page.html
 
 
 Technical Document Project:
 ---
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.html
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_Design/build-a-technical-documentation-page.html
 
 
 Product Landing Page Project:
 ---
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-product-landing-page.html
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_Design/build-a-product-landing-page.html
 
 Personal Portfollio Page Project:
 ---
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-personal-portfolio-webpage.html
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_Design/build-a-personal-portfolio-webpage.html
 <br>
 <br>
 
@@ -70,7 +68,7 @@ A freeCodeCamp lesson is a railroaded coding session rather then an independent 
 As such I take no credit for the contents of this lesson.<br>
 I am adding it to my repository as I may want to reference this code later, and it is a good showcase of combining HTML, CSS and Javascript.<br>
 
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Learn_Basic_JavaScript_by_Building_a_Role_Playing_Game.html
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/Learn_Basic_JavaScript_by_Building_a_Role_Playing_Game.html
 
 <br>
 <br>
