@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styles.css">
     <title>RPG - Dragon Repeller</title>
-<styles>
+<style>
 body {
   background-color: #0a0a23;
 }
@@ -50,7 +50,7 @@ button {
   background-image: linear-gradient(#fecc4c, #ffac33);
   border: 3px solid #feac32;
 }
-</styles>
+</style>
 
 
   </head>
