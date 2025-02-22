@@ -10,7 +10,6 @@ Survey Form Project:
 ---
 
 link to github project on survey<br>
-https://github.com/Draven2000/FreeCodeCamp/blob/main/Survey%20Form%20Project
 https://github.com/Draven2000/FreeCodeCamp/blob/main/Survey%20Form%20Project.html
 
 link to preview file as html page <br>
@@ -19,32 +18,32 @@ https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/m
 Tribute Page Project:
 ---
 link to github project<br>
-https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-tribute-page.txt
+https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-tribute-page.html
 
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-tribute-page.txt
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-tribute-page.html
 
 Technical Document Project:
 ---
 link to github project<br>
-https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.txt
+https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.html
 
 
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.txt
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-technical-documentation-page.html
 
 
 Product Landing Page Project:
 ---
 link to github project<br>
-https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-product-landing-page.txt
+https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-product-landing-page.html
 
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-product-landing-page.txt
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-product-landing-page.html
 
 Personal Portfollio Page:
 ---
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-personal-portfolio-webpage.txt
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/build-a-personal-portfolio-webpage.html
 
 Javascript lesson
 ---
