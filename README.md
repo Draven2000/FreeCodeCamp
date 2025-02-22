@@ -47,6 +47,4 @@ https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/m
 
 Javascript lesson
 ---
-https://github.com/Draven2000/FreeCodeCamp/blob/main/Learn_Basic_JavaScript_by_Building_a_Role_Playing_Game.txt
-
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Learn_Basic_JavaScript_by_Building_a_Role_Playing_Game.txt
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Learn_Basic_JavaScript_by_Building_a_Role_Playing_Game.html
