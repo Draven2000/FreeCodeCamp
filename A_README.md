@@ -8,8 +8,7 @@ What is this repository?
 This is a collection of projects I am building on the website FreeCodeCamp<br>
 Starting with the Responsive Web Design with HTML and CSS, I aim to build a showcasing of what I've learned.<br>
 
-For my non freeCodeCamp projects, find my personal project page here:
-https://github.com/Draven2000/Personal-Projects/tree/main
+
 
 
 Responsive Web Design Certification<br>
