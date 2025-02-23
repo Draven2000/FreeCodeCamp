@@ -81,7 +81,8 @@ Data Analysis with Python<br>
 ===
 https://www.freecodecamp.org/learn/data-analysis-with-python/
 
-Mean-Variance-Standard Deviation Calculator [23/2/2025]
+Mean-Variance-Standard Deviation Calculator 
+[23/2/2025]
 ---
 Link to github repository:
 https://github.com/Draven2000/Mean-Variance-Standard_Deviation_Calculator
