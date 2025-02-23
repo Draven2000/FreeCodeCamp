@@ -81,6 +81,7 @@ Data Analysis with Python<br>
 ===
 https://www.freecodecamp.org/learn/data-analysis-with-python/
 
-I am already familiar with python from my university studies.<br>
-As of current I have not completed any Python projects, my main focus is on the JavaScript course.<br> 
-When I do I will link them below.
+Mean-Variance-Standard Deviation Calculator [23/2/2025]
+---
+Link to github repository:
+https://github.com/Draven2000/Mean-Variance-Standard_Deviation_Calculator
