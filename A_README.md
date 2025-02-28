@@ -69,11 +69,17 @@ https://www.freecodecamp.org/learn/data-analysis-with-python/
 Mean-Variance-Standard Deviation Calculator 
 [23/2/2025]
 ---
-Link to github repository:
+Link to github repository:<br>
 https://github.com/Draven2000/Mean-Variance-Standard_Deviation_Calculator
 
 Demographic_Data_Analyzer
 [25/2/2025]
 ---
-Link to github repository:
+Link to github repository:<br>
 https://github.com/Draven2000/Demographic_Data_Analyzer/blob/main/demographic_data_analyzer.py
+
+Medical_Data_Visualiser 
+[28/2/2025]
+---
+Link to github repository:<br>
+https://github.com/Draven2000/freeCodeCamp_Medical_Data_Visualiser
