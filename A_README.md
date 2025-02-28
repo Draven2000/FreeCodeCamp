@@ -71,3 +71,9 @@ Mean-Variance-Standard Deviation Calculator
 ---
 Link to github repository:
 https://github.com/Draven2000/Mean-Variance-Standard_Deviation_Calculator
+
+Demographic_Data_Analyzer
+[25/2/2025]
+---
+Link to github repository:
+https://github.com/Draven2000/Demographic_Data_Analyzer/blob/main/demographic_data_analyzer.py
