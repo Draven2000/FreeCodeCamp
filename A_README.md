@@ -83,3 +83,9 @@ Medical_Data_Visualiser
 ---
 Link to github repository:<br>
 https://github.com/Draven2000/freeCodeCamp_Medical_Data_Visualiser
+
+Time_Series_Visualiser
+[10/3/2025]
+---
+Link to github repository:<br>
+https://github.com/Draven2000/freeCodeCamp_Time_Series_Visualiser
