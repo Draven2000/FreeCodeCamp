@@ -84,8 +84,15 @@ JavaScript Algorithms and Data Structures<br>
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
 
 I am currently learning JavaScript through freeCodeCamps lessons.<br>
-As of current I have not completed any JavaScript projects.<br> 
-When I do I will link them below as with the HTML projects.
+
+I will add the code to the Javascript folder of this repository and add preview links for the html page below as with the responsive web design projects.
+
+Palindrome-checker-project
+[11/3/2025]
+---
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/build-a-palindrome-checker.html
+
 
 ---
+
 
