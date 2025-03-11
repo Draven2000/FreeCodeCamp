@@ -1,0 +1,75 @@
+
+:root {
+  --text-colour: blue;
+  --background-colour: rgba(69,231,255,255); 
+  --primary-colour: cyan;
+  --correct-colour: rgb(61, 253, 61);
+  --correct-text-color: rgb(25, 52, 25);
+  --wrong-colour: rgb(244, 204, 204);
+  --wrong-text-colour: rgb(97, 10, 10);
+}
+
+body {
+  background-color: var(--background-colour);
+  color: black;
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+}
+
+h1, p, label {
+  color: var(--text-colour);
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+#error-message {
+  color: var(--wrong-text-colour);
+  font-weight: bold;
+  display: none;
+  background-color: var(--wrong-colour);
+}
+
+#result {
+  display: none;
+  background-color: var(--correct-colour);
+  color: var(--correct-text-colour);
+  border-radius: 20px
+}
+
+#form {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: var(--primary-colour);
+  margin: 30px auto 0px;
+  padding: 10px;
+  min-width: 300px;
+  padding-top: 2rem;
+}
+
+input{
+  background-color: gold;
+  border: 1px solid orangered;
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+  min-height: 2rem;
+}
+
+button {
+  cursor: pointer;
+  width: 25%;
+  margin: 1em auto;
+  height: 2em;
+  min-width: 30px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  background-color: gold;
+  border-color: orangered;
+  color : black;
+  display: block;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+}
+
+
