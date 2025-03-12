@@ -50,7 +50,8 @@ const isPalindrome = (inputValue) =>{
 };
 
 
-button.addEventListener("click", () => {
+button.addEventListener("click", (e) => {
+e.preventDefault();
   isPalindrome(textInput.value);
 });
 
