@@ -35,7 +35,7 @@ Survey Form Project:
 ---
 
 link to preview file as html page <br>
-https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_Design/build-a-survey-form.css
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/Responsive_Web_Design/build-a-survey-form.html
 
 
 Tribute Page Project:
