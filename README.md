@@ -93,6 +93,11 @@ Palindrome-checker-project
 https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/build-a-palindrome-checker.html
 
 
+build-a-roman-numeral-converter-project
+[17/3/2025]
+===
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/build-a-roman-numeral-converter.html
+
 ---
 
 
