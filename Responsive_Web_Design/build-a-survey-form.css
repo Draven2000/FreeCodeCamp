@@ -1,13 +1,22 @@
 /* CSS style sheet for the tea survey form project */
 
+:root {
+  --text-colour: rgb(9, 65, 60);
+  --background-colour: #5ba803; 
+  --primary-colour: #4ce1ff;
+  --form-colour: rgb(61, 253, 61);
+  --form-input-colour: #ecffcf;
+}
+
 body {
   width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-color: green;
-  color: black;
-  font-family: Arial;
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+  font-family: Arial, sans-serif;
   font-size: 18px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
 }
 
 h1, p {
@@ -16,37 +25,52 @@ h1, p {
 }
 
 form {
-  width: 70vw;
-  max-width: 500px;
+  width: 75vw;
+  max-width: 600px;
   min-width: 300px;
-  margin: 0 auto;
-  padding-bottom: 4em;
+  background-color: var(--form-colour); 
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 
 label {
   display: block;
-  margin: 1.5rem 0;
+  font-size: 1.1rem;
+  margin: 1rem 0 0.5rem;
 }
 
-input,
-textarea,
-select {
-  margin: 12px 0 0 0;
-  width: 100%;
-  min-height: 2em;
+
+input, textarea, select {
+  display: block;
+  width: 95%;
+  padding: 12px;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  border: 2px solid brown; 
+  border-radius: 8px;
+  background-color: var(--form-input-colour); 
 }
 
-input, select, textarea {
-  background-color: lightgreen;
-  border: 1px solid brown;
+textarea {
+  min-height: 120px;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #8e44ad; 
+  box-shadow: 0 0 8px rgba(142, 68, 173, 0.5); 
+  outline: none;
 }
 
 .inline {
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
+  display: inline; 
 }
+
 
 input[type="submit"] {
   display: block;
@@ -54,15 +78,41 @@ input[type="submit"] {
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
+  padding-bottom: 1.8em;
   background-color: brown;
   border-color: white;
   color : white;
   min-width: 300px;
 }
 
+legend, .bold {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
 
-.inline{
-  display: inline; 
+select, input[type="submit"] {
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.05);
+}
+
+
+input[required] {
+  background-color: #ffefeb; // Light red for required fields 
+}
+
+/* Media query for mobile */
+@media (max-width: 600px) {
+  form {
+    width: 90vw;
+    padding: 1.5em;
+  }
+  input[type="submit"] {
+    width: 80%;
+  }
 }
 
 
