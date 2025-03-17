@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <h1 id = "title">Tea Enjoyers Survey Form</h1>
+    <title>Survey Form Project</title>
     <link rel="stylesheet" href="build-a-survey-form.css" />
   </head>
 
   <body>
+    <h1 id = "title">Tea Enjoyers Survey Form</h1>
     <p id = "description">We would love to hear your thoughts on tea.</p>
 
     <form id = "survey-form">
@@ -23,7 +24,7 @@
       <label for="Radio1"><input id="Radio1" type="radio" name="Radio" class="inline" value = "radio" checked /> Black</label>
       <label for="Radio2"><input id="Radio2" type="radio" name="Radio" class="inline" value = "radio"/> Green</label>
 
-      <label for="referrer">How many cups of tea do you drink in one day?
+      <label for="referrer"><span class = "bold">How many cups of tea do you drink in one day?</span>
           <select id="dropdown" name="dropdown">
             <option value="">(select one)</option>
             <option value="0">None</option>
@@ -32,7 +33,6 @@
             <option value="3">three+</option>
           </select>
       </label>
-
 
 
 <legend>Tell us what flavours you enjoy</legend>
@@ -47,13 +47,14 @@
       <label for="check"> <input class="inline" id="check" type="checkbox"  name="flavour" value = "Camomile tea"/> Camomile tea 
       </label>
 
-
-    <label for="bio">Tell us more about your favourite teas!
+    <label for="bio"><span class = "bold">Tell us more about your favourite teas</span>:
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="what other flavours, sugar and milk, does it help you relax?..."></textarea>
     </label>
 
       <input type = "submit" value = "Submit" id = "submit" />
     </form>
+  </body>
+<html/>
   </body>
 <html/>
 
