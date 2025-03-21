@@ -33,14 +33,19 @@ const clearResults = () => {
 };
 
 // Clicking check-btn checks number
-checkButton.addEventListener("click", checkUserInput);
+checkButton.addEventListener("click", (e) => {
+  e.preventDefault(); 
+  checkUserInput()});
 
 // Allow user to press enter as well as clicking the check button
 checkButton.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
+    e.preventDefault(); 
     checkUserInput();
   }
 });
 
 // Clicking clear-btn clears output screen
-clearButton.addEventListener("click", clearResults);
+clearButton.addEventListener("click", (e) => {
+  e.preventDefault(); 
+  clearResults()});
