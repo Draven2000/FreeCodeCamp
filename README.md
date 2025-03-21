@@ -103,6 +103,8 @@ build-a-roman-numeral-converter-project
 ---
 https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/build-a-roman-numeral-converter.html
 
+build-a-telephone-number-validator-project
+[21/3/2025]
 ---
-
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/build-a-telephone-number-validator.html
 
