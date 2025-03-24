@@ -108,3 +108,8 @@ build-a-telephone-number-validator-project
 ---
 https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/build-a-telephone-number-validator.html
 
+build-a-cash-register-project
+[24/3/2025]
+---
+
+
