@@ -84,13 +84,17 @@ Instead I have written a [read_me file](https://github.com/Draven2000/FreeCodeCa
 
 ---
 JavaScript Algorithms and Data Structures<br> 
-[20/2/2025 -> CURRENT]
+[20/2/2025 -> 26/3/2025]
 ===
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/
 
-I am currently learning JavaScript through freeCodeCamps lessons.<br>
+Link to my certification:<br>
+https://www.freecodecamp.org/certification/Raven2000/javascript-algorithms-and-data-structures-v8
 
-I will add the code to the Javascript folder of this repository and add preview links for the html page below as with the responsive web design projects.
+
+As with the responsive web design projects.<br>
+The source code for each of my JavaScript projects may be found in this repository under the [JavaScript_Algorithms_and_Data_Structures](https://github.com/Draven2000/FreeCodeCamp/tree/main/JavaScript_Algorithms_and_Data_Structures) folder.
+Below I have listed preview links to view the projects as a webpage.
 
 Palindrome-checker-project
 [11/3/2025]
@@ -111,5 +115,24 @@ https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/m
 build-a-cash-register-project
 [24/3/2025]
 ---
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/build-a-cash-register.html
+
+build-a-pokemon-search-app-project
+[26/3/2025]
+---
+https://htmlpreview.github.io/?https://github.com/Draven2000/FreeCodeCamp/blob/main/JavaScript_Algorithms_and_Data_Structures/build-a-pokemon-search-app.html
+
+Currently the project I am most proud of, as both a project in a subject I am passionate about, and a culmination of the JavaScipt I have learned from this course.<br>
+I went beyond the scope of the project to add additional functionality to the search app, including a levenshtein distance function that calculates the closest database name to the users search term, and prompts the user to click the link to this pokemons page. Useful for hard to spell pokemon such as Pyukumuku.<br>
+
+Additionally, I ran functions that suggest what the user may be looking for, when the search term should be correct but doesn't specifically match the names in the provided dataset.<br>
+For example, Deoxys is a perfectly valid pokemon name, but the database insists on calling deoxys-normal for its "base" form.<br>
+So now, typing in deoxys will suggest a link to deoxys-normal page instead.<br>
+
+Also, I included a Alt forms section of the page, when you search up a pokemon such as charizard, it is natural a user may want to see what other versions of charizard exist.<br>
+i.e charizard-mega-x, charizard-mega-y, charizard-gmax.<br>
+This additional page section finds pokemon that share a base name ("charizard") and pull them all up for the user to view.<br>
+Also included are working link buttons that the user may click to bring up the page on these alt forms/suggested pokemon.<br>
+I also included a "tips" modal that may be brought into view and hidden, making my app easier to use and understand.
 
 
