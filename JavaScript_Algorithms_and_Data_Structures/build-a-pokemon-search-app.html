@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build-a-pokemon-search-app.css">
+    <title>Build a Pokémon Search App Project</title>
+  </head>
+
+  <body>
+    <div id="rulesModal" class="modal">
+      <div class="modal-content">
+        <h2>Tips to use:</h2>
+        <ul>
+          <p>To find alternate forms such as mega evolutions, suffix your pokemon name with "-form":</p>
+          <li>charizard-mega-x</li>
+          <li>vulpix-alola</li>
+          <li>meowth-gmax</li>
+          <br>
+          <p>Pokemon have had special characters removed and are dash seperated as followed:</p>
+    
+          <li>Nidoran-f and nidoran-m are called accordingly</li>
+          <li>Type: Null may be found via type-null</li>
+          <li>Galarian Mr. Mime may be found via Mr-mime-galar</li>
+          <p>Have fun!</p>
+        </ul>
+        <button id="acceptBtn">Close tips</button>
+      </div>
+    </div>
+
+    <div id = "heading">
+      <h1>Pokémon Search App</h1>
+      <div class = "btn-label"> 
+        <label for = "search-input">Search by Name or Pokedex No:<br><span>(Name-form)</span></label>
+        <button id="openModalBtn" class = "bold">Show Tips</button>
+      </div>
+      <form id = "form">
+        <input id = "search-input" required></input>
+        <button id = "search-button" class = "bold">Search</button>
+      </form>
+    </div>
+
+    <div id="pokemon-container">
+      <div id = "name-head">
+        <p id = "pokemon-name" class = "stat1">POKEMON NAME: </p>
+        <p id = "pokemon-id" class = "stat1">POKEMON ID:</p>
+      </div>
+      <div id = "size">
+        <p id = "weight" class = "stat1">POKEMON WEIGHT: </p>
+        <p id = "height" class = "stat1">POKEMON HEIGHT:</p>
+        <div id = "types" class = "stat1">POKEMON TYPES:</div>
+      </div>
+      <div id = "img-container"></div>
+    </div>
+    
+    <div id = "stat-container">
+      <h2>Stats:</h2>
+      <table id="stat-table">
+        <thead>
+          <tr>
+            <th>Stat</th>
+            <th>Base Amount:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HP</td>
+            <td id = "hp" class = "stat"></td>
+          </tr>
+          <tr>
+            <td>Attack</td>
+            <td id = "attack" class = "stat"></td>
+          </tr>
+          <tr>
+            <td>Defence</td>
+            <td id = "defense" class = "stat"></td>
+          </tr>
+          <tr>
+            <td>Sp.Attack</td>
+            <td id = "special-attack" class = "stat"></td>
+          </tr>
+          <tr>
+            <td>Sp.Defence</td>
+            <td id = "special-defense" class = "stat"></td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td id = "speed" class = "stat"></td>
+          </tr>
+          <tr>
+            <td class = "bold">Total:</td>
+            <td id = "stat-total" class = "stat bold"></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <div id = "alt-forms-container">
+        
+      <div id = "alt-forms">
+      </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="build-a-pokemon-search-app.js">
+    </script>
+  </body>
+</html>

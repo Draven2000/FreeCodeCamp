@@ -1,0 +1,241 @@
+:root {
+  --button-size: 90px;
+  --text-colour: #2e3a59;
+  --background-colour: #00bcd4; 
+  --primary-colour: #4ce1ff;
+  --correct-text-color: rgb(25, 52, 25);
+  --change-due: rgb(83, 246, 181);
+}
+
+.NORMAL {background-color: #A8A77A;}
+.FIRE {background-color: #EE8130;}
+.WATER  {background-color: #6390F0;}
+.ELECTRIC {background-color:#F7D02C;}
+.GRASS  {background-color:#7AC74C;}
+.ICE  {background-color:#96D9D6;}
+.FIGHTING {background-color:#C22E28;}
+.POISON {background-color:#A33EA1;}
+.GROUND {background-color:#E2BF65;}
+.FLYING {background-color:#A98FF3;}
+.PSYCHIC  {background-color:#F95587;}
+.BUG  {background-color:#A6B91A;}
+.ROCK	{background-color:#B6A136;}
+.GHOST	{background-color:#735797;}
+.DRAGON	{background-color:#6F35FC;}
+.DARK	{background-color:#705746;}
+.STEEL	{background-color:#B7B7CE;}
+.FAIRY{background-color: #D685AD;}
+
+body {
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+  font-family: 'Times New Roman', 'Georgia', serif;
+  font-size: 18px;
+  margin: 0, auto;
+  padding: 0;
+}
+
+h1, h2, p {
+  color: var(--text-colour);
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+label{
+  font-size: 1.1rem;
+  margin-right: 50px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px; 
+}
+
+.stat1{
+  display: block;
+  color: var(--correct-text-colour);
+  width: 200px;
+}
+
+#name-head, #size, #types, .img-btn-pair, .btn-label{
+  margin: 10px auto;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#heading, #pokemon-container, #stat-container, #alt-forms-container{
+  max-width: 600px;
+  background-color: var(--primary-colour);
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#heading {
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column; 
+}
+
+.btn-label {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 30px; 
+}
+
+#form {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+#search-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 400px; 
+}
+
+#search-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: gold;
+  border-color: orangered;
+  color: white;
+  display: block;
+  width: 100%;
+  max-width: 400px; 
+  border-radius: 50px;
+}
+
+#pokemon-container, #stat-container, #alt-forms-container {
+  display: none ;
+}
+
+
+/* Input and buttons style*/
+
+input {
+  background-color: #ffffff;
+  border: 4px solid #00bcd4;
+  display: block;
+  padding: 8px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 8px solid red; 
+}
+
+
+button {
+  cursor: pointer;
+  width: var(--button-size);
+  height: var(--button-size);
+  border-radius: var(--button-size);
+  margin: 0 auto;
+  font-size: 0.8rem;
+  background-color: gold;
+  border-color: orangered;
+  color : white;
+  display: block;
+  background: linear-gradient(to bottom, red 0%, red 42%,
+   rgb(39, 33, 33) 42%, rgb(39, 33, 33) 58%,
+    white 58%, white 100%);
+  border: 3px solid #feac32;
+}
+
+.alt-search-btn{
+  background: linear-gradient(to bottom, white 0%, white 48%,
+   rgb(161, 151, 151) 48%, rgb(214, 197, 197) 52%,
+    white 52%, white 100%);
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Table style */
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+table, th, td {
+  border: 1px solid black;
+  
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: rgb(93, 93, 143);
+  color: white
+}
+
+td {
+  background: white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+/* Modal styles */
+.modal {
+  display: none;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.modal-content {
+  background-color: rgb(184, 251, 251);
+  margin: 15% auto;
+  padding: 4rem;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 40px;
+  height: 100%;
+  border: 10px solid rgb(235, 10, 10)
+}
+
+.modal-content ul {
+  text-align: left; 
+}
+
+.modal-content li {
+  padding-left: 10px; 
+  margin-bottom: 10px; 
+}
+
+.modal-content p{
+  margin: 0 auto;
+}
+.modal button{
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+}
