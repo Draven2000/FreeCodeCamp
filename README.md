@@ -8,12 +8,13 @@ What is this repository?
 This is a compilation of the many projects I am building on the website freeCodeCamp for the online courses<br>
 Starting with the Responsive Web Design with HTML and CSS, I aim to build a showcasing of what I've learned.<br>
 
-As of the 11th March, I have completed two certifications, 
-* Responsive Web Design
-* Data Analysis with Python
+As of the 28th March, I have completed three certifications, 
+* Responsive Web Design (HTML, CSS)
+* Data Analysis with Python (Python)
+* JavaScript Algorithms and Data Structures (JavaScript)
 
 I am currently studying,
-* JavaScript Algorithms and Data Structures
+* Front End Development Libraries (HTML, CSS, JavaScript)
 
 
 Below I will list links to each of the projects I have completed.
@@ -135,4 +136,11 @@ This additional page section finds pokemon that share a base name ("charizard") 
 Also included are working link buttons that the user may click to bring up the page on these alt forms/suggested pokemon.<br>
 I also included a "tips" modal that may be brought into view and hidden, making my app easier to use and understand.
 
+---
+
+Front End Development Libraries Certification<br>
+[28/3/2025 -> CURRENT]
+===
+I am currently working on my Front End Development Libararies Course on freeCodeCamp, building on what I learned from my HTML, CSS and JavaScript projects.
+As I complete my projects, I will upload them into this repository as with the Responsive Web Design and JavaScript Algorithm courses.
 
