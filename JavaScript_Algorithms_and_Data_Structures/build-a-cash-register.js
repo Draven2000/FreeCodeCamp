@@ -289,5 +289,3 @@ button.addEventListener("click", (e) => {
 e.preventDefault();
 purchaseAttempt()
 });
-
-)
