@@ -141,6 +141,15 @@ I also included a "tips" modal that may be brought into view and hidden, making 
 Front End Development Libraries Certification<br>
 [28/3/2025 -> CURRENT]
 ===
-I am currently working on my Front End Development Libararies Course on freeCodeCamp, building on what I learned from my HTML, CSS and JavaScript projects.
-As I complete my projects, I will upload them into this repository as with the Responsive Web Design and JavaScript Algorithm courses.
+I am currently working on my Front End Development Libararies Course on freeCodeCamp, building on what I learned from my HTML, CSS and JavaScript projects with Bootstrap, React and Redux.
+As I complete my projects, I will upload links to their github repositories within this compilation repo, and a preview link via codepen
+
+Random Quote Machine<br>
+[7/5/2025]
+===
+github preview struggles to load react components, hence I used codepen to preview my page instead:
+https://codepen.io/Draven2000/pen/VYYBLBb?editors=1010
+
+A link to the github repository containing my code may be found here
+https://github.com/Draven2000/random-quote-machine_fcc_front-end-project
 
